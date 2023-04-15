@@ -685,3 +685,7 @@ footer .nav-link-footer:hover {
 .s8{
   margin-top:15%;
 }
+
+footer ul li{
+  text-align: left !important;
+}

@@ -49,6 +49,7 @@ body {
 }
 .nav-button1{
   margin-left:20%;
+  white-space:nowrap;
 }
 .navbar-brand {
   font-size: 2rem;
@@ -283,17 +284,22 @@ margin-left: 13px;
   line-height: 24px;
   letter-spacing: 0.2px;
   color: #FFFFFF;
+  padding:0% 15%;
 }
 
 .list-item-s2{
-  gap:45px;
+  display:grid !important;
 }
 
 .list-section-2 img{
-  width:24px;
-
+width: 10%;
 }
 
+.list-item-s2 > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
 /* Section 2 End*/
 
@@ -302,17 +308,16 @@ margin-left: 13px;
   margin-top:10%;
 }
 
-.s3 button{
-}
-.s3h5{
+.s3-h5{
   font-family: 'Graphik';
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 20px;
 line-height: 30px;
 text-align: center;
 letter-spacing: 0.1px;
 color: #000000;
+margin-top:10%
 }
 
 .s3-p{
@@ -324,18 +329,48 @@ line-height: 24px;
 text-align: center;
 letter-spacing: 0.2px;
 color: #5C5C5C;
+padding:3% 20%;
 }
 .s3 .card{
   background: #FFFFFF;
 border: 1px solid #D3D3D3;
 box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
 border-radius: 10px;
+width:40%;
 }
-
-.cards3{
+.img-s3-1{
+  margin-top:30%;
+border: 3.52131px solid #000000;
+border-radius: 4.56393px 4.56393px 0px 0px;
+}
+.card-s3-2{
   display: flex;
 }
+.btns3{
+  margin-top:12%;
+}
 
+.hr{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #D8D8D8;
+  height:8px;
+  border-radius:33px;
+}
+.hr-sub{
+  background: #9FA2A5;
+  height:5px;
+  text-align: center;
+  width:25%;
+  border-radius: 33px;
+}
+.hr1{
+  
+  border-radius: 33px;
+  height: 4.72px;
+  background: #9FA2A5;
+}
 /* Section 3 End */
 
 /*Section 4 Start*/
@@ -398,6 +433,46 @@ border-radius: 10px;
 }
 
 /* Section 6 Start*/
+.card-s6 {
+  padding: 1.5rem;
+}
+
+.card-s6 img {
+  display: block;
+  margin: 0 auto;
+}
+
+.card-s6 .align-items-center {
+  margin-bottom: 1.5rem;
+}
+
+.card-s6 .col-9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1.5rem;
+}
+
+.card-s6 .span-s6-1 {
+  margin-bottom: 1%;
+}
+
+.card-s6 .span-s6-1 a {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-s6 .p-s6 {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.card-s6 .s6-text-2 .p-s6-2 {
+  margin-bottom: 0;
+  font-size: 1.1rem;}
+
 .card-s6 img{
   width:50px;
 }
@@ -407,8 +482,23 @@ border-radius: 10px;
   border: 1px solid #FFFFFF;
 }
 
-.card-s6 p{
+.card-s6 .p-s6-2{
   padding:40px 70px 40px 40px;
+  font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: 0.2px;
+
+/* light text */
+
+color: #FFFFFF;
+
+}
+.card-s6 .p-s6{
   font-family: 'Graphik';
 font-style: normal;
 font-weight: 400;

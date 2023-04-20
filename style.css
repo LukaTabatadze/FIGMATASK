@@ -311,6 +311,20 @@ width: 10%;
   margin-bottom: 10px;
 }
 
+@media (max-width:768px){
+.list-section-2{
+  text-align: center;
+  display: grid;
+}
+.list-item-s2 > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+
+}
 /* Section 2 End*/
 
 /*Section 3 Start*/
@@ -409,7 +423,6 @@ border-radius: 4.56393px 4.56393px 0px 0px;
   display: grid !important;
 }
 .mobile-s4 img{
-  padding:3% 30% 3% 30%;
   width:329px;
 }
 
@@ -427,13 +440,21 @@ border-radius: 4.56393px 4.56393px 0px 0px;
 /*Section 4 End */
 
 /*Section 5 Start*/
-
-.partner-s5 img {
-  height: 30px;
-  width: auto;
-  margin-top:5%;
+.partner-s5 {
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
+.partner-s5 img {
+  max-height: 70px;
+  width: auto;
+  margin-top: 5%;
+}
+
+.image-divs {
+  padding-left: 2%;
+  padding-right: 2%;
+}
 @media (max-width: 767px) {
   .partner-s5 .row {
     flex-wrap: wrap;
@@ -442,17 +463,46 @@ border-radius: 4.56393px 4.56393px 0px 0px;
     flex-basis: 50%;
     max-width: 50%;
   }
+  .partner-s5 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .p-s6-2{
+    margin-bottom:12% !important;
+    padding:40px !important;
+  }
+  .card-s6{
+    padding:1.5rem 0 1.5rem 0 !important;
+    
+  }
+
+}
+
+.text-section{
+  margin-bottom:3%;
 }
 
 .button-s5{
-  margin-top:5%;
+  margin-top: 4%;
 }
-
 /* Section 6 Start*/
 .card-s6 {
   padding: 1.5rem;
 }
-
+.card-section-s6{
+  margin-top:5%;
+}
+@media (min-width:768px){
+.card-s6-0 .p-s6-2{
+  margin-bottom:12% !important;
+}
+.card-s6-00{
+  margin-top:-9%
+}
+}
+.card-s6{
+  margin-top: 4% !important;}
 .card-s6 img {
   display: block;
   margin: 0 auto;
@@ -542,6 +592,8 @@ color: #FFFFFF;
   
 }
 
+
+
 .card-content {
   padding: 10% 17%;
 }
@@ -582,7 +634,9 @@ color: #FFFFFF;
     flex-direction: column;
     align-items: center;
   }
-  
+.s7{
+  padding:0 !important;
+}
   .card-s7 img {
     position: relative;
     bottom: 0;
@@ -596,7 +650,9 @@ color: #FFFFFF;
     object-fit: cover;
   }
 }
-
+.mobile-s7-img{
+width:-webkit-fill-available;
+}
 
 
 /* Section 8 Start*/

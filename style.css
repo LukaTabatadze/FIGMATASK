@@ -426,6 +426,10 @@ border-radius: 4.56393px 4.56393px 0px 0px;
   width:329px;
 }
 
+.desktop-s4{
+  text-align:center;
+}
+
 @media (max-width: 767px) {
   .desktop-s4 img{
     display: none;
@@ -675,7 +679,7 @@ width:-webkit-fill-available;
   footer .row:nth-child(1) .col-md-3,
   footer .row:nth-child(2) .col-md-3,
   footer .row.social-icons .col-md-3 {
-    flex-basis: 100%;
+    flex-basis: 
     max-width: 100%;
   }
 }
@@ -744,4 +748,35 @@ footer .nav-link-footer:hover {
 
 footer ul li{
   text-align: left !important;
+}
+.s8-h5{
+  padding:0 10%;
+}
+
+footer ul{
+  padding:5% 10%;
+}
+#footerLast{
+  padding:0 10%;
+  white-space: nowrap;
+}
+
+#s2-p{
+  position: relative;
+  top:18%;
+  left:-10%;
+}
+#s2-p2{
+  position: relative;
+left:-35%;
+top:10%;
+
+}
+
+.social-icons{
+  text-align: center;
+}
+#Phone{
+  position: relative;
+  left:1%;
 }
